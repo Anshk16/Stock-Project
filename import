@@ -1,0 +1,19 @@
+# Stock-Project
+
+import pandas_datareader.data as web
+import datetime
+import plotly.graph_objs as go
+import numpy as np
+from sklearn.tree import DecisionTreeClassifier
+from sklearn.ensemble import RandomForestRegressor
+import pandas as pd
+import matplotlib.pyplot as plt 
+import scipy
+import pylab
+import ipywidgets as widgets
+from ipywidgets import interact, interact_manual
+from statsmodels.tsa.stattools import adfuller
+import matplotlib.pylab as plt
+from matplotlib.pylab import rcParams
+from matplotlib.widgets import Slider
+from scipy.spatial.distance import directed_hausdorff
